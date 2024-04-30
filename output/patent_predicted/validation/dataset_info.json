@@ -1,0 +1,76 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "patent_classification",
+  "dataset_size": 24159063,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/MAdAiLab/patent_classification@7bbd10c2297000527de11fe8ea34d7f78f61c86d/data/train-00000-of-00001.parquet": {
+      "num_bytes": 8611586,
+      "checksum": null
+    },
+    "hf://datasets/MAdAiLab/patent_classification@7bbd10c2297000527de11fe8ea34d7f78f61c86d/data/validation-00000-of-00001.parquet": {
+      "num_bytes": 1735855,
+      "checksum": null
+    },
+    "hf://datasets/MAdAiLab/patent_classification@7bbd10c2297000527de11fe8ea34d7f78f61c86d/data/test-00000-of-00001.parquet": {
+      "num_bytes": 1720512,
+      "checksum": null
+    }
+  },
+  "download_size": 12067953,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "names": [
+        "Human Necessities",
+        "Performing Operations; Transporting",
+        "Chemistry; Metallurgy",
+        "Textiles; Paper",
+        "Fixed Constructions",
+        "Mechanical Engineering; Lightning; Heating; Weapons; Blasting",
+        "Physics",
+        "Electricity",
+        "General tagging of new or cross-sectional technology"
+      ],
+      "_type": "ClassLabel"
+    },
+    "predicted_label": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 36227016,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 17228226,
+      "num_examples": 25000,
+      "dataset_name": "patent_classification"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 3473479,
+      "num_examples": 5000,
+      "dataset_name": "patent_classification"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 3457358,
+      "num_examples": 5000,
+      "dataset_name": "patent_classification"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

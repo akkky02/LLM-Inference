@@ -1,0 +1,66 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "twitter_disaster",
+  "dataset_size": 1237570,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/MAdAiLab/twitter_disaster@b83c0f112d9a75490d9e21f99ac63fe301ecd228/data/train-00000-of-00001.parquet": {
+      "num_bytes": 704483,
+      "checksum": null
+    },
+    "hf://datasets/MAdAiLab/twitter_disaster@b83c0f112d9a75490d9e21f99ac63fe301ecd228/data/validation-00000-of-00001.parquet": {
+      "num_bytes": 90937,
+      "checksum": null
+    },
+    "hf://datasets/MAdAiLab/twitter_disaster@b83c0f112d9a75490d9e21f99ac63fe301ecd228/data/test-00000-of-00001.parquet": {
+      "num_bytes": 89084,
+      "checksum": null
+    }
+  },
+  "download_size": 884504,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "predicted_label": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 2122074,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 990191,
+      "num_examples": 8700,
+      "dataset_name": "twitter_disaster"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 124679,
+      "num_examples": 1088,
+      "dataset_name": "twitter_disaster"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 122700,
+      "num_examples": 1088,
+      "dataset_name": "twitter_disaster"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
