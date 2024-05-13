@@ -1,0 +1,9 @@
+vllm
+nvitop
+wandb
+weave
+langchain
+scikit-learn
+datasets
+ipywidgets
+python_dotenv
